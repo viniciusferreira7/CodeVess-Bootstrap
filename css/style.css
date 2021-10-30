@@ -1,0 +1,192 @@
+.chamada{
+    width:100%;
+    padding:140px 2%;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(110, 107, 107, 0.2);
+    z-index:1;
+}
+
+.chamada .container{
+    z-index:2;
+    position:relative;
+}
+
+.chamada{
+    color:white;
+}
+
+.vindo p{
+    margin-top:5px;
+    padding-right: 18px;
+}
+
+.chamada form button{
+    padding: 8px 80px;
+    background-color: #3FA3C5;
+    color:white;
+}
+
+.arrow{
+    text-align:center ;
+    padding:15px 2%;
+    background-color: #3FA3C5;
+}
+.arrow i{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.sobre{
+    width:100%;
+    padding:30px 2%;
+    background-color: rgb(225,225,225);
+}
+
+.custom-title{
+    width:100%;
+    position: relative;
+}
+
+.custom-title .bar{
+    width:30px;
+    height:4px;
+    background-color:#3FA3C5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom-title h4{
+    color:#888;
+}
+
+.sobre button{
+    background-color: #3FA3C5;
+    padding:6px 15px;
+    border:0;
+}
+
+section.diferencias{
+    width:100%;
+    padding:45px 2%;
+}
+
+.diferencias .row:nth-of-type(2){
+    text-align: center;
+}
+
+.diferencias .col-md-4{
+    padding:0 40px;
+}
+
+.nosso-icon{
+    width:100%;
+    border-bottom: 1px dotted #888;
+    padding: 10px 0;
+    margin:10px 0 10px 0;
+}
+
+.nosso-icon i{
+    font-size: 28px;
+    color: #666;
+}
+
+.diferencias p{
+    color: #777;
+    padding:0 1% ;
+}
+
+section.lista{
+    width:100%;
+    padding:25px 2%;
+    background-color:#3FA3C5;
+}
+
+.lista .container{
+    padding:0 80px;
+}
+
+.lista h3{
+    color:white;
+}
+
+.form-group{
+    width:100%;
+    height:35px;
+    display: flex;
+    align-items: center;    
+}
+
+.lista input{
+    width:80%;
+
+    padding-left: 5px;
+    height:100%;
+
+}
+
+.lista button{
+    width:20%;
+    line-height: 100%;
+    height:100%;
+    background-color: rgb(221, 218, 218);
+    vertical-align: middle;
+}
+
+section.contato{
+    width:100%;
+    padding:30px 2%;
+    background-color: rgb(225,225,225);
+}
+
+.contato input:not([type=submit]), .contato textarea{
+    border:1px solid rgb(209, 207, 207);
+}
+
+.contato button{
+    background-color:#3FA3C5;
+    color: white;
+}
+
+footer{
+    width:100%;
+    padding:25px 2%;
+    color:white;
+    background-color:#333;
+}
+
+footer .container > .row{
+    padding-bottom:30px;
+}
+
+footer i{
+    margin-right: 15px;
+}
+
+.sub-footer{
+    width:100%;
+    padding:10px 2%;
+    text-align: center;
+    color:white;
+    background-color: #444;
+ 
+}
+
+.sub-footer p{
+    margin: 0;
+}
+
+
